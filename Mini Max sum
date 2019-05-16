@@ -1,0 +1,15 @@
+n=list(map(int,input().split()))
+n.sort()
+
+mini=[]
+maxm=[]
+for i in range(len(n)-1):
+    mini.append(n[i])
+
+for i in range(1,len(n)):
+    maxm.append(n[i])
+
+
+mi=sum(mini)
+ma=sum(maxm)
+print(mi,ma)
