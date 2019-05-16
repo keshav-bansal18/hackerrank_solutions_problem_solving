@@ -1,0 +1,8 @@
+n=int(input())
+ar=list(map(int,input().split()))
+x=max(ar)
+c=0
+for i in ar:
+    if i==x:
+        c+=1
+print(c)
